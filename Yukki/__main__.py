@@ -127,8 +127,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_1.join_chat("OfficialYukki")
-            await ASS_CLI_1.join_chat("YukkiSupport")
+            await ASS_CLI_1.join_chat("Storezeastore")
+            await ASS_CLI_1.join_chat("dbzea")
         except:
             pass
         console.print(f"├[red] Assistant 1 Started as {ASSNAME1}!")
@@ -146,8 +146,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_2.join_chat("OfficialYukki")
-            await ASS_CLI_2.join_chat("YukkiSupport")
+            await ASS_CLI_2.join_chat("Storezeastore")
+            await ASS_CLI_2.join_chat("dbzea")
         except:
             pass
         console.print(f"├[red] Assistant 2 Started as {ASSNAME2}!")
