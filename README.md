@@ -94,7 +94,7 @@ shikhar@MacBook~ $ bash start
 
 ## License
 
-Distributed under the [GNU General Public License v3.0 License.](https://github.com/kykoubot/Zeamusicbot/blob/main/LICENSE) See `LICENSE.md` for more information.
+Distributed under the [GNU General Public License v3.0 License.](https://github.com/kykoubot/Zeamusic/blob/main/LICENSE) See `LICENSE.md` for more information.
 
 ## Acknowledgements
 
