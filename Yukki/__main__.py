@@ -94,7 +94,7 @@ async def initiate_bot():
             status="[bold blue]Importation Completed!",
         )
     console.print(
-        "[bold green]Congrats!! Yukki Music Bot has started successfully!\n"
+        "[bold green]Congrats!! Zebo Music Bot has started successfully!\n"
     )
     try:
         await app.send_message(
