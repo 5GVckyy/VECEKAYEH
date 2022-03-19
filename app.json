@@ -1,13 +1,13 @@
 {
-  "name": "Yukki Music Bot",
+  "name": "Zebo Music Bot",
   "description": "A Telegram Music Bot with proper functions written in Python with Pyrogram and Py-Tgcalls.",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
   "keywords": [
   "python3",
   "telegram",
   "bot",
-  "Yukki",
-  "YukkiMusicBot",
+  "Zebo",
+  "ZeaMusic",
   "telegram-bot",
   "pyrogram"
   ],
@@ -30,12 +30,12 @@
     },
     "DURATION_LIMIT": {
       "description": "Duration Limit for Playout (In Mins).. Example: 60",
-      "value": "60",
+      "value": "7000000",
       "required": true
     },
     "ASSISTANT_PREFIX": {
       "description": "Prefix for Assistant Commands.",
-      "value": ".",
+      "value": "/",
       "required": true
     },
     "MONGO_DB_URI": {
@@ -50,12 +50,12 @@
     },
     "SUPPORT_CHANNEL": {
       "description": "Support Channel Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
-      "value": "",
+      "value": "https://t.me/",
       "required": false
     },
     "SUPPORT_GROUP": {
       "description": "Support Group Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
-      "value": "",
+      "value": "https://t.me/",
       "required": false
     },
     "OWNER_ID": {
@@ -110,7 +110,7 @@
     },
     "SUDO_USERS": {
       "description": "The user id(s) of user(s) whom you would like to add as a SUDO. Multiple values shall be seperated with a space.",
-      "value": "",
+      "value": "2120344815",
       "required": true
     },
     "LOG_SESSION": {
@@ -120,7 +120,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/NotReallyShikhar/YukkiMusicBot",
+      "value": "https://github.com/Kykoubot/Zeamusic",
       "required": true
     },
     "UPSTREAM_BRANCH": {
