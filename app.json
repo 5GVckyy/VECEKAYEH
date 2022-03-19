@@ -14,27 +14,27 @@
   "stack": "container",
   "env": {
     "API_ID": {
-      "description": "Get this value from https://my.telegram.org",
+      "description": "Dapatkan nilai ini dari https://my.telegram.org",
       "value": "",
       "required": true
     },
     "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
+      "description": "Dapatkan nilai ini dari https://my.telegram.org",
       "value": "",
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "A Bot's token from Botfather",
+      "description": "Token Bot dari Botfather",
       "value": "",
       "required": true
     },
     "DURATION_LIMIT": {
-      "description": "Duration Limit for Playout (In Mins).. Example: 60",
+      "description": "Batas Durasi untuk Playout (Dalam menit).. Tidak untuk di ubah: 7000000",
       "value": "7000000",
       "required": true
     },
     "ASSISTANT_PREFIX": {
-      "description": "Prefix for Assistant Commands.",
+      "description": "Awalan untuk Perintah Asisten.",
       "value": "/",
       "required": true
     },
@@ -44,87 +44,87 @@
       "required": true
     },
     "MUSIC_BOT_NAME": {
-      "description": "A name for your Music Bot.",
+      "description": "Nama untuk Bot Musik Anda.",
       "value": "",
       "required": true
     },
     "SUPPORT_CHANNEL": {
-      "description": "Support Channel Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
+      "description": "Tautan Channel Support jika ada, Biarkan kosong jika tidak ada dukungan. Tautan Anda harus dimulai dengan https://t.me/",
       "value": "https://t.me/",
       "required": false
     },
     "SUPPORT_GROUP": {
-      "description": "Support Group Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
+      "description": "Tautan Grup Support jika ada, Biarkan kosong jika tidak ada dukungan. Tautan Anda harus dimulai dengan https://t.me/",
       "value": "https://t.me/",
       "required": false
     },
     "OWNER_ID": {
-      "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+      "description": "ID pengguna dari pengguna yang ingin Anda tambahkan sebagai PEMILIK.",
       "value": "",
       "required": true
     },
     "START_IMG_URL": {
-      "description": "Telegraph Image Link for the Private Start Message",
+      "description": "Tautan Gambar Telegraf untuk Pesan Mulai Pribadi",
       "value": "",
       "required": false
     },
     "STRING_SESSION1": {
-      "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+      "description": "Sesi String Pyrogram. Satu Asisten adalah Wajib.",
       "value": "",
       "required": true
     },
     "STRING_SESSION2": {
-      "description": "A Pyrogram String Session. Leave blank if you dont want Multi-Assistant",
+      "description": "Sesi String Pyrogram. Biarkan kosong jika Anda tidak ingin Multi-Asisten",
       "value": "",
       "required": false
     },
     "STRING_SESSION3": {
-      "description": "A Pyrogram String Session. Leave blank if you dont want Multi-Assistant",
+      "description": "Sesi String Pyrogram. Biarkan kosong jika Anda tidak ingin Multi-Asisten",
       "value": "",
       "required": false
     },
     "STRING_SESSION4": {
-      "description": "A Pyrogram String Session. Leave blank if you dont want Multi-Assistant",
+      "description": "Sesi String Pyrogram. Biarkan kosong jika Anda tidak ingin Multi-Asisten",
       "value": "",
       "required": false
     },
     "STRING_SESSION5": {
-      "description": "A Pyrogram String Session. Leave blank if you dont want Multi-Assistant",
+      "description": "Sesi String Pyrogram. Biarkan kosong jika Anda tidak ingin Multi-Asisten",
       "value": "",
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "Your Heroku account's API key",
+      "description": "Akun Heroku Anda, API key",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "Your heroku app/bot's name",
+      "description": "Nama aplikasi/bot heroku Anda",
       "value": "",
       "required": false
     },
     "LOG_GROUP_ID": {
-      "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
+      "description": "ID Grup Log Anda, tambahkan bot Anda dan promosikan sebagai admin dengan hak penuh!. Gunakan hanya Grup. Tolong jangan gunakan ID Channel.",
       "value": "",
       "required": true
     },
     "SUDO_USERS": {
-      "description": "The user id(s) of user(s) whom you would like to add as a SUDO. Multiple values shall be seperated with a space.",
+      "description": "ID pengguna dari pengguna yang ingin Anda tambahkan sebagai SUDO. Beberapa nilai harus dipisahkan dengan spasi.",
       "value": "2120344815",
       "required": true
     },
     "LOG_SESSION": {
-      "description": "A Pyrogram String Session for LOGGING or u can also add STRING_SESSION1 Also.",
+      "description": "Sesi String Pyrogram untuk LOGGING atau Anda juga dapat menambahkan STRING_SESSION1 Juga.",
       "value": "",
       "required": true
     },
     "UPSTREAM_REPO": {
-      "description": "If you dont know this, Leave as it is",
+      "description": "Jika Anda tidak tahu ini, Biarkan apa adanya",
       "value": "https://github.com/Kykoubot/Zeamusic",
       "required": true
     },
     "UPSTREAM_BRANCH": {
-      "description": "Repo's Branch Name",
+      "description": "Nama Branch Repo",
       "value": "master",
       "required": true
     }
