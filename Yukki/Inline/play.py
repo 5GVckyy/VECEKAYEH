@@ -196,11 +196,17 @@ def secondary_markup2(videoid, user_id):
     return buttons
 
 
-def primary_markup(videoid, user_id):
+def primary_markup(videoid, user_id, current_time, total_time):
     if videoid not in db_mem:
         db_mem[videoid] = {}
     db_mem[videoid]["check"] = 2
     buttons = [
+        [
+            InlineKeyboardButton(
+                text=f"{total_time} ------------------ {current_time}",
+                callback_data=f"timer_checkup_markup {videoid}|{user_id}",
+            )
+        ],
         [
             InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
             InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
