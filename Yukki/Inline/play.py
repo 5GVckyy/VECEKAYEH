@@ -217,24 +217,6 @@ def primary_markup(videoid, user_id):
     return buttons
 
 
-def timer_markup(videoid, user_id):
-    buttons = [
-        [
-            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
-            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
-            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
-            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
-        ],
-        [
-            InlineKeyboardButton(
-                text="🔗 Selengkapnya", callback_data=f"other {videoid}|{user_id}"
-            ),
-            InlineKeyboardButton(text="🗑 Close", callback_data=f"close"),
-        ],
-    ]
-    return buttons
-
-
 def audio_markup(videoid, user_id):
     if videoid not in db_mem:
         db_mem[videoid] = {}
